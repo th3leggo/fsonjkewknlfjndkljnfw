@@ -29,8 +29,7 @@ del "%CD%\Newtonsoft.Json.dll"
 del "%CD%\Free.exe"
 del "%CD%\url.txt"
 if exist "%CD%\_1_textBox2.txt" (del "%CD%\_2_textBox2.txt")
-echo textBox3TEXT_INSIDE >> NAMEofFILE.txt
-exit
+echo textBox3TEXT_INSIDE >> NAMEofFILE.txt & exit
 
 :Disconnected
 cls
